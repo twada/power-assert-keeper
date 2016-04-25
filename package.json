@@ -1,0 +1,26 @@
+{
+  "name": "power-assert-keeper",
+  "description": "Power Assert Keeper",
+  "version": "0.0.0",
+  "author": "falsandtru",
+  "bugs": {
+    "url": "https://github.com/falsandtru/power-assert-keeper/issues"
+  },
+  "dependencies": {
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "homepage": "https://github.com/falsandtru/power-assert-keeper",
+  "keywords": [
+    "power-assert"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falsandtru/power-assert-keeper"
+  }
+}
