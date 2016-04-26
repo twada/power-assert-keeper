@@ -31,7 +31,7 @@ script:
   - "cd -"
   - "echo karma-espower-preprocessor"
   - "cd power-assert"
-  - "npm i karma karma-mocha karma-expect karma-chrome-launcher karma-firefox-launcher"
+  - "npm i mocha karma karma-mocha karma-expect karma-chrome-launcher karma-firefox-launcher"
   - "cp ../karma-espower-preprocessor/* ./"
   - "karma start"
   - "cd -"
