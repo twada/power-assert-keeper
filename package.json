@@ -3,8 +3,15 @@
   "description": "Power Assert Keeper",
   "version": "0.0.0",
   "author": "falsandtru",
+  "contributors": [
+    {
+      "name": "Takuto Wada",
+      "email": "takuto.wada@gmail.com",
+      "url": "https://github.com/twada"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/falsandtru/power-assert-keeper/issues"
+    "url": "https://github.com/twada/power-assert-keeper/issues"
   },
   "dependencies": {
     "karma-espower-preprocessor": "0.0.4",
@@ -16,13 +23,13 @@
     "CHANGELOG.md",
     "package.json"
   ],
-  "homepage": "https://github.com/falsandtru/power-assert-keeper",
+  "homepage": "https://github.com/twada/power-assert-keeper",
   "keywords": [
     "power-assert"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/falsandtru/power-assert-keeper"
+    "url": "https://github.com/twada/power-assert-keeper"
   }
 }

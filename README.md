@@ -1,6 +1,6 @@
 # power-assert-keeper
 
-[![Build Status](https://travis-ci.org/falsandtru/power-assert-keeper.svg?branch=master)](https://travis-ci.org/falsandtru/power-assert-keeper)
+[![Build Status](https://travis-ci.org/twada/power-assert-keeper.svg?branch=master)](https://travis-ci.org/twada/power-assert-keeper)
 
 ## Register npm packages
 
