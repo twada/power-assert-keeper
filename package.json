@@ -14,7 +14,7 @@
     "url": "https://github.com/twada/power-assert-keeper/issues"
   },
   "dependencies": {
-    "karma-espower-preprocessor": "0.0.4",
+    "karma-espower-preprocessor": "^1.0.0",
     "power-assert": "^1.4.0"
   },
   "files": [
