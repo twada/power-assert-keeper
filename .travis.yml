@@ -14,6 +14,7 @@ addons:
     packages:
       - google-chrome-stable
 before_install:
+  - "export CHROME_BIN=/usr/bin/google-chrome"
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
 script:
@@ -29,7 +30,8 @@ script:
   - "cd -"
   - "echo karma-espower-preprocessor"
   - "cd power-assert"
-  - "npm i mocha karma karma-mocha karma-expect karma-chrome-launcher karma-firefox-launcher"
   - "cp ../karma-espower-preprocessor/* ./"
+  - "npm i karma-espower-preprocessor"
   - "karma start"
+  - "npm r karma-espower-preprocessor"
   - "cd -"
