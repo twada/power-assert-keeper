@@ -13,7 +13,7 @@ module.exports = function (config) {
             { pattern: 'test/tobe_instrumented/modules.js', watched: true, served: true, included: true }
         ],
         preprocessors: {
-            'test/*/*.js': ['espower']
+            'test/tobe_*/*.js': ['espower']
         },
         espowerPreprocessor: {
             options: {
