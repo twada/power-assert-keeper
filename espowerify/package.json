@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "expect.js": "latest",
+    "power-assert": "latest"
+  }
+}
