@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "expect.js": "latest",
+    "karma": "latest",
+    "karma-chrome-launcher": "latest",
+    "karma-expect": "latest",
+    "karma-firefox-launcher": "latest",
+    "karma-mocha": "latest",
+    "mocha": "latest",
+    "requirejs": "latest"
+  }
+}
