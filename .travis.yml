@@ -17,7 +17,7 @@ before_install:
   - "export CHROME_BIN=/usr/bin/google-chrome"
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-script:
+before_script:
   - "echo power-assert"
   - "git clone --depth=50 https://github.com/power-assert-js/power-assert"
   - "cd power-assert"
@@ -29,11 +29,12 @@ script:
   - "npm i"
   - "travis_retry npm test"
   - "cd -"
+script:
   - "echo karma-espower-preprocessor"
-  - "cd power-assert"
-  - "cp ../karma-espower-preprocessor/* ./"
-  - "cat ../package.json | grep karma-espower-preprocessor | sed -E 's/\"|,//g' | sed 's/: /@/' | xargs npm i"
-  - "travis_retry karma start"
-  - "git reset --hard HEAD"
+  - "cd karma-espower-preprocessor"
   - "npm i"
+  - "cat ../package.json | grep karma-espower-preprocessor | sed -E 's/\"|,//g' | sed 's/: /@/' | xargs npm i -S"
+  - "cp -r ../power-assert/build ./"
+  - "cp -r ../power-assert/test ./"
+  - "travis_retry karma start"
   - "cd -"
