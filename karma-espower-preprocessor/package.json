@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "expect.js": "latest",
     "karma": "latest",
     "karma-chrome-launcher": "latest",
