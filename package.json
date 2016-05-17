@@ -19,7 +19,7 @@
     "espower-cli": "^1.0.0",
     "espowerify": "^1.0.0",
     "intelli-espower-loader": "^1.0.1",
-    "karma-espower-preprocessor": "^1.0.0",
+    "karma-espower-preprocessor": "1.1.0",
     "power-assert": "^1.4.1"
   },
   "files": [
