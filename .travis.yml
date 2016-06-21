@@ -21,7 +21,7 @@ before_script:
   - "echo power-assert"
   - "git clone --depth=50 https://github.com/power-assert-js/power-assert"
   - "cd power-assert"
-  - "cat ../node_modules/power-assert/package.json | grep gitHead | cut -d'\"' -f4 | xargs git checkout -q --detach"
+  #- "cat ../node_modules/power-assert/package.json | grep gitHead | cut -d'\"' -f4 | xargs git checkout -q --detach"
   - "npm i -g browserify"
   - "npm i -g dereserve"
   - "npm i -g derequire"
