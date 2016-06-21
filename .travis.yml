@@ -27,7 +27,7 @@ before_script:
   - "npm i -g derequire"
   - "npm i -g mocha"
   - "npm i"
-  - "travis_retry npm test"
+  - "npm test"
   - "cd -"
 script:
   - "cd espower-cli"
@@ -69,5 +69,5 @@ script:
   - "cat ../package.json | grep karma-espower-preprocessor | sed -E 's/\"|,//g' | sed 's/: /@/' | xargs npm i -S"
   - "cp -r ../power-assert/build ./"
   - "cp -r ../power-assert/test ./"
-  - "travis_retry karma start"
+  - "karma start"
   - "cd -"
