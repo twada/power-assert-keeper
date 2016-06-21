@@ -8,12 +8,10 @@ module.exports = function (config) {
         files: [
             { pattern: 'node_modules/requirejs/require.js', included: false },
             { pattern: 'build/power-assert.js', watched: true, served: true, included: true },
-            { pattern: 'test/tobe_instrumented/assertion.js', watched: true, served: true, included: true },
-            { pattern: 'test/tobe_instrumented/assertion.es6.js', watched: true, served: true, included: true },
-            { pattern: 'test/tobe_instrumented/customization.js', watched: true, served: true, included: true }
+            { pattern: '../test/**/*.js', watched: true, served: true, included: true }
         ],
         preprocessors: {
-            'test/tobe_*/*.js': ['espower']
+            '../test/tobe_*/*.js': ['espower']
         },
         espowerPreprocessor: {
             options: {
