@@ -4,6 +4,7 @@
     "babel-preset-es2015": "latest",
     "babel-register": "latest",
     "expect.js": "latest",
+    "mocha": "latest",
     "power-assert": "latest"
   }
 }

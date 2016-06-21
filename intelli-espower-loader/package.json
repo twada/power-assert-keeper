@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "expect.js": "latest",
+    "mocha": "latest",
     "power-assert": "latest"
   }
 }

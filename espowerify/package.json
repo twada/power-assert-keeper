@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "browserify": "latest",
     "expect.js": "latest",
+    "mocha": "latest",
     "power-assert": "latest"
   }
 }
