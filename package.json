@@ -14,7 +14,7 @@
     "url": "https://github.com/twada/power-assert-keeper/issues"
   },
   "dependencies": {
-    "babel-plugin-espower": "2.1.2",
+    "babel-plugin-espower": "2.3.1",
     "babel-preset-power-assert": "1.0.0",
     "espower-cli": "1.0.0",
     "espowerify": "1.0.0",
