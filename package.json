@@ -20,7 +20,7 @@
     "espowerify": "1.0.0",
     "intelli-espower-loader": "1.0.1",
     "karma-espower-preprocessor": "1.1.0",
-    "power-assert": "1.4.1"
+    "power-assert": "1.4.2"
   },
   "files": [
     "LICENSE",
