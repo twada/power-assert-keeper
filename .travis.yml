@@ -53,7 +53,7 @@ script:
   - "npm i"
   - "cat ../package.json | grep karma-espower-preprocessor | sed -E 's/\"|,//g' | sed 's/: /@/' | xargs npm i -S"
   - "cp -r ../power-assert/build ./"
-  - "karma start"
+  - "travis_retry karma start"
   - "cd -"
   - "cd babel-plugin-espower"
   - "npm i"
