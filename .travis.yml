@@ -22,10 +22,10 @@ before_script:
   - "git clone --depth=50 https://github.com/power-assert-js/power-assert"
   - "cd power-assert"
   - "npm i"
-  - "npm test"
+  - "travis_retry npm test"
   - "cat ../node_modules/power-assert/package.json | grep -E '\"version\": \"[0-9.]+\"' | cut -d'\"' -f4 | sed -E s/^/v/ | xargs git checkout -f --detach"
   - "npm i"
-  - "npm test"
+  - "travis_retry npm test"
   - "cd -"
 script:
   - "cd espower-cli"
