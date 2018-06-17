@@ -1,6 +1,7 @@
 {
   "name": "power-assert-keeper",
   "description": "Power Assert Keeper",
+  "private": true,
   "version": "0.0.0",
   "author": "falsandtru",
   "contributors": [
