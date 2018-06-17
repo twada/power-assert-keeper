@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current",
+        "browsers": [
+          ">0.25%",
+          "not ie 11",
+          "not op_mini all"
+        ]
+      }
+    }],
+    'power-assert'
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    ["babel-plugin-espower", { "embedAst": true }]
+  ]
+}
