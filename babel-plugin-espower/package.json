@@ -1,10 +1,12 @@
 {
   "dependencies": {
     "babel": "latest",
-    "babel-preset-es2015": "latest",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "latest",
     "expect.js": "latest",
     "mocha": "latest",
-    "power-assert": "latest"
+    "power-assert": "latest",
+    "semver": "^5.5.0"
   }
 }
