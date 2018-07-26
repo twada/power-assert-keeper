@@ -75,7 +75,7 @@ describe('power-assert on ES20xx syntax', function () {
     });
 
     describe('ES2018', () => {
-        it('Object Rest/Spread', () => {
+        it.skip('Object Rest/Spread', () => {
             expectPowerAssertMessage (() => {
                 var o = { a: 1, b: 2 };
                 assert.deepStrictEqual({ ...o, c: 5 }, { a: 1, b: 2, c: 3 });
