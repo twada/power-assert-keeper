@@ -19,9 +19,9 @@ before_script:
   - "cd power-assert"
   - "npm i"
   - "travis_retry npm test"
-  #- "cat ../node_modules/power-assert/package.json | grep -E '\"version\": \"[0-9.]+\"' | cut -d'\"' -f4 | sed -E s/^/v/ | xargs git checkout -f --detach"
-  #- "npm i"
-  #- "travis_retry npm test"
+  - "cat ../node_modules/power-assert/package.json | grep -E '\"version\": \"[0-9.]+\"' | cut -d'\"' -f4 | sed -E s/^/v/ | xargs git checkout -f --detach"
+  - "npm i"
+  - "travis_retry npm test"
   - "cd -"
 script:
   - "cd espower-cli"
